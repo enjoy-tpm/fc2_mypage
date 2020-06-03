@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<body>
+<button class="btn">button</button>
+<script src="jquery.js"></script>
+<script>
+$(function()
+{
+// ボタンがクリックされたとき
+$('.btn').on('click', function()
+{
+  var set_href=location.href;
+  set_href=null
+  // 親へメッセージを送信
+  // postMessage(<送信する値>, <送信先のドメイン>)
+  window.parent.postMessage('任意のメッセージ',  "*");
+});
+});
+</script>
+</body>
+</html>

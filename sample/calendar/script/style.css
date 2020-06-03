@@ -1,0 +1,193 @@
+/*カンガルー関連*/
+#kangaroo_cont{
+display:none;
+}
+
+#kan_cont1_right{
+width:175px;
+float:left;
+text-align:center;
+}
+#kan_cont1_left{
+width:560px;
+float:left;
+}
+#kan_cont1_left p{
+font-size:14px;
+background:#fcfcfc;
+padding:5px;
+border-left:solid 1px #cccccc;
+border-top:solid 1px #cccccc;
+border-right:solid 1px #999999;
+border-bottom:solid 1px #999999;
+margin-bottom:2px;
+}
+#kan_cont1_left table{
+border-right:solid 1px #cccccc;
+border-top:solid 1px #cccccc;
+}
+#kan_cont1_left td{
+padding:2px;
+border-left:solid 1px #cccccc;
+border-bottom:solid 1px #cccccc;
+}
+#kan_cont1_left a{
+color:#0000ff;
+}
+
+#kangaroo_cont h2{
+padding-left:9px;
+padding-bottom:8px;
+margin:0;
+}
+
+#kan_cont2,#kan_cont3{
+padding-bottom:12px;
+border-bottom:dotted 1px #666666;
+margin:0 9px 20px;
+}
+#kan_cont3{
+padding:0 16px 12px 9px;
+}
+#kan_navi{
+text-align:right;
+display:block;
+}
+
+#kan_cont3 h3{
+margin:0 0 8px;
+padding:0 8px;
+font-weight:normal;
+font-size:14px;
+border-bottom:dotted 1px #000066;
+color:#0000ff;
+}
+#kan_cont3 h4{
+margin:0 0 12px;
+padding:0 18px 8px;
+border-bottom:dotted 1px #666666;
+font-weight:normal;
+font-size:12px;
+display:none;
+}
+
+/*i-book関連*/
+#ibook_top div{
+margin:0 10px 15px 11px;
+background:url("../i/ibook_top/cont_body.gif") top left repeat-y;
+padding:0;
+}
+#ibook_top div img{
+display:block;
+}
+#ibook_top div p{
+float:left;
+}
+/*cont0*/
+#cont0 a{
+display:block;
+padding:0 8px;
+font-size:0.8em;
+}
+
+/*cont3*/
+#cont3_left,#cont3_right{
+width:360px;
+}
+#cont3_left span,#cont3_right span{
+float:left;
+}
+#cont3_left tt,#cont3_right tt{
+display:block;
+font-size:14px;
+color:#ff0000;
+font-weight:bold;
+margin:0 4px 3px;
+padding:0 3px;
+border-bottom:dotted 1px #666666;
+}
+#cont3_left em,#cont3_right em{
+font-style:normal;
+display:block;
+padding:0 4px 8px;
+}
+#cont3_left img,#cont3_right img{
+margin:0 auto;
+text-align:center;
+}
+#cont_aleart{
+width:720px;
+}
+
+#cont_aleart tt,#cont_aleart span{
+display:block;
+}
+#cont_aleart tt{
+font-size:14px;
+color:#ff0000;
+border-bottom:dotted 1px #666666;
+padding:0 4px 2px;
+margin:0 0 4px 8px;
+}
+#cont_aleart span{
+margin-left:8px;
+}
+
+
+#ibook_top_cont{
+display:none;
+}
+
+
+/*バナー関連*/
+#topbanar{
+padding:0px 0px 5px 7px;
+background:#ffffff;
+text-align:center;
+}
+
+
+
+#topbanar p{
+margin:0 5px 0 0;
+padding:0 5px 2px;
+border:solid 1px #ff0000;
+background:#eeeeee;
+text-align:left;
+}
+#topbanar b{
+color:#ff0000;
+display:block;
+border-bottom:dotted 1px #666666;
+margin:0 0 2px;
+font-size:14px;
+}
+
+
+#topbanar a{
+padding:0 3px 0 0;
+}
+
+#osusume p{
+float:left;
+color:#cc0000;
+}
+#osusume a{
+display:block;
+padding:0 0 5px;
+}
+#osusume span{
+display:block;
+text-align:center;
+}
+#osusume tt{
+display:block;
+padding:0 12px;
+text-decoration:none;
+}
+
+
+/*一時　カレンダー削除*/
+#ranking{
+display:none;
+}

@@ -1,0 +1,1681 @@
+@import url("../script/style.css");
+
+body {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	font-size: small;
+	color: #333333;
+	background-color: #eeeeee;
+}
+* img {
+	border: 0px;
+}
+* {
+	font-family: "ÇlÇr Ço ÉSÉVÉbÉN", "Osaka";
+}
+
+a:link,a:visited{
+color:#000000;
+text-decoration: underline;
+}
+a:hover,a:active{
+color:FF3300;
+text-decoration: none;
+}
+
+body,a {
+	font-size: 12px;
+}
+body,a:visited {
+
+}
+body a:hover {
+
+}
+body a:active {
+
+}
+h1,h2,p {
+	margin: 0px;
+	padding: 0px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.f a{
+	font-family: "ÇlÇr Ço ÉSÉVÉbÉN", "Osaka";
+	font-size: 12px;
+
+}
+.f a:hover{
+	font-family: "ÇlÇr Ço ÉSÉVÉbÉN", "Osaka";
+	font-size: 12px;
+	color: #FF3300;
+}
+
+span.del{
+	display: none;
+}
+#headFrame {
+	margin: 0px;
+	padding: 0px;
+	width: 750px;
+	height: 15px;
+	background-image: url(http://shop.as-web.jp/images/head_frame.gif);
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+#footFrame {
+	margin: 0px;
+	margin-top: -1px;
+	padding: 0px;
+	width: 750px;
+	height: 15px;
+	background-image: url(http://shop.as-web.jp/images/foot_frame.gif);
+	background-repeat: no-repeat;
+	background-color: #EEEEEE;
+}
+#head {
+	margin: 0px;
+	padding: 0px;
+	width: 750px;
+	background-color: #FFFFFF;
+}
+#head_logo {
+	margin: 0px;
+	padding: 0px;
+	width: 750px;
+	background-color: #FFFFFF;
+}
+#shop_head_logo {
+	margin: 0px;
+	margin-bottom: -2px;
+	padding: 0px;
+	width: 750px;
+	background-color: #FFFFFF;
+}
+#logo {
+	margin: 0px;
+	margin-top: 12px;
+	padding: 0px;
+	width: 234px;
+	float: left;
+	background-color: #FFFFFF;
+}
+#btnShopping {
+	width: 284px;
+	height: 27px;
+	margin-top: 41px;
+	margin-bottom: 0px;
+	margin-left: 225px;
+	margin-right: 0px;
+	float: left;
+	background-color: #0000FF;
+}
+#navi {
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 10px;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 2px;
+	padding-top: 5px;
+	width: 746px;
+	height: 40px;
+	background-image: url(http://shop.as-web.jp/images/navi_bg.gif);
+	background-repeat: repeat;
+	clear:left;
+}
+#navi a {
+	list-style-type: none;
+	display: block;
+	float: left;
+	background-color: #eeeeee;
+	text-align: center;
+	margin: 2px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #660000;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 10px;
+	color: #333333;
+	text-decoration: none;
+	white-space:nowrap;
+}
+#navi a:hover {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #009900;
+	text-decoration: none;
+	white-space:nowrap;
+}
+#navi_select a {
+	list-style-type: none;
+	display: block;
+	float: left;
+	background-color: #009900;
+	text-align: center;
+	margin: 2px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 16px;
+	border: 1px solid #660000;
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+	white-space:nowrap;
+}
+#naviSub {
+	clear: left;
+	margin: 0px;
+	padding: 3px;
+	width: 744px;
+	background-repeat: repeat;
+	background-image: url(http://shop.as-web.jp/images/navi_bg.gif);
+	word-spacing: 2px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 12px;
+	color: #000000;
+	display: block;
+}
+#naviSub a {
+	padding: 3px;
+	line-height: 18px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	color: #000000;
+	text-decoration: none;
+}
+#naviSub a:hover {
+	padding: 3px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #DC0000;
+}
+.btn {
+	float: left;
+	white-space:nowrap;
+}
+.naviSub2 {
+	margin: 0px;
+	padding: 0px;
+}
+#naviSub_b a {
+	padding: 3px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	color: #49B6D1;
+	text-decoration: none;
+}
+#naviSub_b a:hover {
+	padding: 3px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #DC0000;
+}
+#naviSub_b_highlight a {
+	padding: 3px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #DC0000;
+}
+#naviSub_g {
+	list-style-type: none;
+	display: block;
+	float: left;
+	background-color: #8AA0B4;
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 750px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	white-space:nowrap;
+}
+#naviSub_g .btn a {
+	list-style-type: none;
+	display: block;
+	float: left;
+	background-color: #8AA0B4;
+	margin: 1px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #8AA0B4;
+	text-decoration: none;
+	white-space:nowrap;
+}
+#naviSub_g .btn img {
+	float: left;
+}
+#naviSub_g .btn a:hover {
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #000000;
+	text-decoration: none;
+	white-space:nowrap;
+}
+#search {
+	margin: 0px;
+	margin-top: -1px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 56px;
+	width: 180px;
+	height: 25px;
+	text-align: left;
+	background-repeat: no-repeat;
+	background-image: url(http://shop.as-web.jp/images/search_bg.gif);
+	background-color: #FFFFFF;
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 11px;
+	color: #666666;
+	float: left
+}
+#menu {
+	margin: 0px;
+	width: 506px;
+	height: 26px;
+	text-align: right;
+	background-color: #FFFFFF;
+	float: left;
+	padding: 4px 1px 1px 1px;
+
+}
+/*
+
+#search {
+	margin: 0px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 45px;
+	width: 190px;
+	height: 24px;
+	text-align: left;
+	background-repeat: no-repeat;
+	background-image: url(http://shop.as-web.jp/images/search_bg.gif);
+	background-color: #FFFFFF;
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 11px;
+	color: #666666;
+	float: left
+}
+#menu {
+	margin: 0px;
+	width: 505px;
+	height: 26px;
+	text-align: left;
+	background-color: #FFFFFF;
+	float: left;
+	padding: 4px 1px 1px 1px;
+}
+
+*/
+
+#menu a {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+#menu_g a {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+#menu a:hover {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #FF3300;
+}
+#pull_down {
+	margin: 0px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	width: 730px;
+	background-color: #FFFFFF;
+}
+#shop_navi {
+	margin: 0px;
+	padding: 3px;
+	width: 744px;
+	background-repeat: repeat;
+	background-image: url(http://shop.as-web.jp/images/shop_navi_bg.gif);
+	word-spacing: 2px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 12px;
+	color: #000000;
+}
+#shop_navi a {
+	padding: 3px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	color: #000000;
+	text-decoration: none;
+}
+#shop_navi_select a {
+	list-style-type: none;
+	display: block;
+	float: left;
+	background-color: #FF9900;
+	text-align: center;
+	margin: 2px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 16px;
+	border: 1px solid #660000;
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	white-space:nowrap;
+}
+#shop_navi a:hover {
+	padding: 3px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #DC0000;
+}
+#shop_naviSub {
+	margin: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: 750px;
+
+	background-repeat: repeat;
+	background-image: url(http://shop.as-web.jp/images/shop_navi_bg.gif);
+	text-align: right;
+	word-spacing: 2px;
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 16px;
+	color: #0000FF;
+}
+#shop_naviSub a {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	color: #0000CC;
+	font-size: 16px;
+	text-decoration: none;
+}
+#shop_naviSub a:hover {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 16px;
+	color: #FFFFFF;
+}
+#shop_search {
+	margin: 0px;
+	margin-top: -1px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 56px;
+	width: 180px;
+	height: 25px;
+	text-align: left;
+	background-repeat: no-repeat;
+	background-image: url(http://shop.as-web.jp/images/shop_search_bg.gif);
+	background-color: #FFFFFF;
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 11px;
+	color: #666666;
+	float: left
+}
+/*
+#shop_search {
+	margin: 0px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 240px;
+	text-align: left;
+	background-repeat: no-repeat;
+	background-image: url(http://shop.as-web.jp/images/shop_search_bg.gif);
+	background-color: #FFFFFF;
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 11px;
+	color: #666666;
+	float: left
+}
+*/
+#shop_menu {
+	margin: 0px;
+	width: 507px;
+	height: 26px;
+	text-align: right;
+	background-color: #FFFFFF;
+	float: left;
+	padding: 4px 1px 1px 1px;
+}
+/*
+#shop_menu {
+	margin: 0px;
+	padding-top: 5px;
+	width: 495px;
+	height: 20px;
+	text-align: right;
+	background-color: #FFFFFF;
+	float: left;
+	padding: 4px 1px 1px;
+}
+*/
+#shop_menu a {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+#shop_menu a:hover {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #FF3300;
+}
+#mall_menu {
+	margin: 3px;
+	background-color: #FFFFFF;
+	float: left;
+	padding: 4px 1px 1px;
+}
+#mall_menu a {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+#mall_menu a:hover {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #FF0000;
+}
+#contents {
+	margin: 0px;
+	margin-top:0px;
+	padding: 0px;
+	width: 750px;
+	background-color: #FFFFFF;
+	clear: both;
+}
+/*
+*+html body #contents {
+	margin: 0px;
+	margin-top: 30px;
+	padding: 0px;
+	width: 750px;
+	background-color: #FFFFFF;
+	clear: both;
+}
+*/
+#shop_contents {
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	width: 750px;
+	background-color: #FFFFFF;
+	clear: both;
+}
+*+html body #contents_margin {
+	margin-top:55px;
+}
+#shop_foot {
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	width: 750px;
+	background-color: #FFFFFF;
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: x-small;
+	color: #000000;
+	text-align: center;
+	clear: both;
+}
+#foot {
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 750px;
+	background-repeat: repeat;
+	background-image: url(http://shop.as-web.jp/images/navi_bg.gif);
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: x-small;
+	color: #003300;
+	text-align: center;
+	clear: both;
+}
+#foot a {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: x-small;
+	font-weight: bold;
+	color: #003300;
+	text-decoration: underline;
+}
+#foot a:hover {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: x-small;
+	color: #FF3300;
+	text-align: center;
+	clear: both;
+}
+.formText {
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 12px;
+	height: 16px;
+}
+.formBtn {
+	font-size: 11px;
+	height: 20px;
+}
+#contentsLeft {
+	margin: 0px;
+	padding: 3px;
+	padding-left: 5px;
+	width: 470px;
+	float: left;
+	background-color: #FFFFFF;
+}
+#contentsRight {
+	margin: 0px;
+	padding-left: 10px;
+	float: left;
+	width: 250px;
+	background-color: #FFFFFF;
+}
+#specialL {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 8px;
+	width: 460px;
+}
+.photo {
+	margin: 5px;
+}
+#specialTitle {
+	width: 430px;
+	height: 19px;
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 30px;
+	background-image:url(http://shop.as-web.jp/images/special_l_title.gif);
+	background-repeat:no-repeat;
+}
+#topics {
+	margin: 5px;
+	padding: 5px;
+	width: 225px;
+	background-color: #FFFFFF;
+}
+#newTitle {
+	width: 200px;
+	height: 16px;
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	background-image:url(http://shop.as-web.jp/images/new_title.gif);
+	background-repeat:no-repeat;
+}
+#specialS {
+	margin: 5px;
+	padding: 5px;
+	width: 225px;
+}
+#ranking {
+	margin: 5px;
+	padding: 5px;
+	width: 225px;
+}
+#rankingTitle {
+	width: 180px;
+	height: 12px;
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	background-image:url(http://shop.as-web.jp/images/ranking_title.gif);
+	background-repeat:no-repeat;
+}
+#shopTile {
+	margin: 0px;
+	padding-left: 5px;
+	width: 745px;
+	background-color: #FFFFFF;
+}
+.f_news a{
+	font-family: "ÇlÇr Ço ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 11px;
+	color: #000000;
+}
+.f_news a:hover{
+	font-family: "ÇlÇr Ço ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 11px;
+	color: #FF3333;
+}
+#shop_recommend_title {
+	width: 180px;
+	height: 12px;
+	font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	background-image:url(http://shop.as-web.jp/images/shop_recommend_title.gif);
+	background-repeat:no-repeat;
+}
+.space {
+	width: 1px;
+	height: 1px;
+	clear: both;
+}
+#pull_down {
+	width: 730px;
+	margin: 0px;
+	padding: 10px;
+	clear: both;
+}
+.f2 {
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 11px;
+	color: #000000;
+}
+
+
+#use{
+width:750px;
+background:#ffffff;
+text-align:left;
+}
+#ask{
+width:750px;
+background:#ffffff;
+text-align:left;
+}
+#ask p,#use p{
+font-size:0.8em;
+margin:0 5px;
+text-align:center;
+color:#666666;
+}
+
+#use h1,#ask h1{
+margin:0 0 8px;
+padding:2px;
+font-size:14px;
+text-align:center;
+background:#cccccc;
+border-bottom:solid 1px #999999;
+}
+#use td,#ask td{
+border-bottom:dashed 1px #cccccc;
+padding:2px;
+font-size:0.8em;
+color:#666666;
+}
+
+#use table,#ask table{
+margin:0 auto;
+}
+
+#use h2,#ask h2{
+margin:8px 0 0;
+padding:2px;
+font-size:14px;
+text-align:center;
+background:#cccccc;
+border-bottom:solid 1px #999999;
+}
+#item_detail {
+	clear: both;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+.f_bold {
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 10px;
+	color: #000000;
+
+}
+.f_bold a {
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 12px;
+	color: #FF0000;
+	text^decoration: underline;
+}
+.f_bold a:hover {
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 12px;
+	color: #000000;
+	text^decoration: underline;
+}
+.lineup {
+	line-text: left;
+}
+.itemMemo {
+	padding-top: 10px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN, Osaka, ÉqÉâÉMÉmäpÉS Pro W3";
+	font-size: 11px;
+	color: #333333;
+
+}
+.itemMemo a {
+	color: #333333;
+	text-decoration: none;
+}
+
+/*----------------------------shoptop----------------------------*/
+
+#tt0412,#tc0412,#tb0412{
+width:460px;
+}
+#tc0412{
+background:url("../../shop/S00007/images/ideam.jpg") top left repeat-y;
+}
+#tb0412{
+margin:0 0 5px;
+}
+
+#tc0412 p{
+font-size:12px;
+line-height:1.5em;
+margin:0 22px;
+display:block;
+}
+
+#tc0412 A:link,#tc0412 A:visited {
+color: #0000ff;
+text-decoration:underline;
+
+}
+#tc0412 A:hover,#tc0412 A:active {
+ COLOR: #990099;
+text-decoration: none;
+}
+
+/*----------------------------shoptop----------------------------*/
+
+#tt0412,#tc0412,#tb0412{
+width:460px;
+}
+#tc0412{
+background:url("../../shop/S00007/images/ideam.jpg") top left repeat-y;
+}
+#tb0412{
+margin:0 0 5px;
+}
+
+#tc0412 p{
+font-size:12px;
+line-height:1.5em;
+margin:0 22px;
+display:block;
+}
+
+#tc0412 A:link,#tc0412 A:visited {
+color: #0000ff;
+text-decoration:underline;
+
+}
+#tc0412 A:hover,#tc0412 A:active {
+ COLOR: #990099;
+text-decoration: none;
+}
+/*----------------------------tuusin----------------------------*/
+
+#tubody{
+font-size: 100%;
+width:700px;
+margin:0 25px;
+}
+.tutitle{
+margin:15px 0 20px;
+}
+.tucont{
+border:solid 2px #ff6633;
+background:url("../html/templates/mall/as_tuusin/i/tucontb.gif") top left repeat-y #eeeeee;
+margin:0 0 20px;
+}
+.tucont h2{
+text-align:center;
+display:block;
+color:#ffffff;
+font-size:14px;
+width:35px;
+float:left;
+margin:20px 0;
+font-weight:normal;
+}
+#tubody h3{
+text-align:center;
+display:block;
+color:#ffffff;
+font-size:14px;
+margin:10px 0;
+font-weight:normal;
+background:#ff0000;
+}
+.tucont2{
+float:right;
+width:651px;
+padding:5px 0;
+}
+.tucont2 p,.tucont2 h4{
+margin-right:10px;
+margin-bottom:0;
+}
+.tucont2 p{
+padding:8px 0 0;
+margin-left:10px;
+margin-top:0;
+margin-bottom:0;
+}
+.tucont2 i{
+font-style:normal;
+border-right:solid 1px #999999;
+border-bottom:solid 1px #999999;
+padding:0 2px;
+background:#ff6633;
+color:#ffffff;
+}
+.tucont2 h4{
+font-size:1em;
+background:#000000;
+color:#ffffff;
+padding:2px 5px;
+border-right:solid 1px #cccccc;
+border-bottom:solid 1px #cccccc;
+margin-top:2px;
+}
+.tucont2 h5{
+margin:5px 10px 2px 0;
+font-size:1.3em;
+}
+
+.tucontb{
+clear:both;
+font-size:0.8em;
+text-align:right;
+padding:1px 10px 5px;
+border-top:solid 1px #000000;
+margin:0 10px 0 45px;
+}
+#tubody ul{
+margin:0 0 20px;
+padding:10px 0px;
+list-style-type:none;
+border:solid 1px #ff6633;
+background:#eeeeee;
+}
+#tubody li{
+margin:5px 25px;
+border-bottom:dashed 1px #ff6633;
+padding:0 10px 2px;
+font-weight:bold;
+}
+
+.tupicl,.tupicr{
+margin:0;
+padding:8px 0 10px;
+text-align:center;
+}
+.tupicl u,.tupicr u{
+margin:0 5px 8px;
+text-decoration:none;
+font-size:0.8em;
+
+}
+.tupicl{
+width:200px;
+float:left;
+}
+.tupicr{
+width:210px;
+float:right;
+}
+
+
+/*----------------------------tuika----------------------------*/
+
+.lrb{
+clear:both;
+font-size:1px;
+}
+
+#gbody{
+width:750px;
+}
+#gbody h1{
+background:#99FFFF;
+margin:0;
+padding:1px 5px;
+font-size:1.2em;
+}
+#gbody h2{
+display:block;
+margin:11px 0px 6px 0px;
+}
+#gbody h3{
+margin:0 5px 0 0;
+padding:11px 5px 2px;
+font-size:1.2em;
+color:#ff0000;
+}
+#gbody h4{
+font-weight:normal;
+padding:5px;
+font-size:1em;
+margin:0 0 10px;
+}
+#gbody h4 u{
+display:block;
+border-right:solid 1px #cccccc;
+border-bottom:solid 1px #cccccc;
+color:#333333;
+padding:2px 5px;
+text-decoration:none;
+margin:0 0 5px;
+font-weight:bold;
+background:#eeeeee;
+}
+
+#gbody h5{
+padding:0 5px;
+margin:0;
+font-size:1.2em;
+border-bottom:solid 2px #cccccc;
+}
+
+
+
+#gbl{
+width:250px;
+text-align:center;
+float:left;
+}
+
+
+#gbr{
+width:495px;
+float:left;
+}
+
+
+#cart{
+border:solid 1px #cccccc;
+background:#eeeeee;
+margin:0 5px 0;
+padding:2px;
+}
+#cart form{
+margin:0 5px;
+}
+
+#cart h6{
+color:#222222;
+margin:2px 0 6px;
+padding:0 5px;
+font-size:1.05em;
+}
+#cart  p{
+color:#000000;
+margin:2px 0 0;
+padding:0 5px;
+font-size:1.1em;
+}
+#cart  p i{
+color:#ff0000;
+font-size:0.9em;
+font-style:normal;
+}
+
+.gbrr{
+width:124px;
+text-align:center;
+float:left;
+}
+#gbrb{
+clear:both;
+
+}
+
+#gbb{
+clear:both;
+}
+#gbb table{
+margin:8px 5px 8px 0;
+}
+
+#gbb p{
+clear:both;
+text-align:right;
+padding:10px 5px 0 0;
+margin:0 0 5px;
+}
+
+.cbottom{
+padding:0 5px;
+}
+.cbottom p{
+width:25%;
+float:left;
+text-align:center;
+padding:8px 0 0;
+}
+.cbottom i,.cbottom b,.cbottom u{
+display:block;
+}
+.cbottom i{
+border-top:solid 1px #cccccc;
+border-left:solid 1px #cccccc;
+border-bottom:solid 1px #333333;
+border-right:solid 1px #333333;
+margin:0 5px 5px;
+padding:8px 0;
+}
+.cbottom b{
+text-align:left;
+padding:0 5px 2px;
+margin:0px 5px 3px;
+border-bottom:dotted 1px #666666;
+}
+.cbottom u{
+text-decoration:none;
+text-align:right;
+padding:0 10px;
+color:#ff0000;
+}
+.cbottom h2{
+margin:0;
+background:#ff0000;
+color:#ffffff;
+font-size:1.2em;
+padding:1px;
+text-align:center;
+border-top:solid 1px #eeeeee;
+border-left:solid 1px #eeeeee;
+border-bottom:solid 1px #999999;
+border-right:solid 1px #999999;
+}
+
+
+
+#box1{
+margin:0 0 15px;
+width:463px;
+background:url("../i/box1.gif") top left repeat-y;
+}
+#box1 h3,#box2 h3,#box4 h3{
+margin:0;
+padding:0;
+font-size:1px;
+display:block;
+text-decoration:none;
+line-height:0;
+clear:both;
+}
+#box1c1,#box1c2,#box1c3{
+margin:0 8px 4px;
+border:solid 1px #cccccc;
+}
+#box1c1{
+background:#ffffff;
+}
+#box1c2{
+background:url("../i/box1c2.gif") top left repeat-y #ffffff;
+}
+#box1c3{
+background:url("../i/box1c3.gif") top left repeat-y #ffffff;
+}
+.lrb{
+clear:both;
+font-size:1px;
+line-height:0;
+}
+
+.cont{
+float:left;
+padding:5px 0;
+}
+
+#box1c3 .cont{
+width:148px;
+}
+#box1c2 .cont{
+width:222px;
+}
+#box1c1 .cont{
+
+width:444px;
+}
+
+
+.cont tt,.cont em,.cont u{
+display:block;
+font-style:normal;
+text-decoration:none;
+}
+.cont tt,.cont em{
+font-weight:bold;
+padding:0 5px 2px;
+}
+.cont tt{
+text-align:center;
+}
+.cont u{
+padding:3px 8px;
+}
+
+#box2,#box4{
+margin:0 0 15px;
+width:463px;
+}
+#box2{
+background:url("../i/box2c.gif") top left repeat-y;
+}
+#box4{
+background:url("../i/box4c.gif") top left repeat-y;
+}
+#box4l{
+width:168px;
+}
+#box4l em{
+display:block;
+margin:0 5px;
+padding:5px 0 0;
+text-align:center;
+background:#ffffff;
+border:solid 1px #BC4328;
+}
+#box4r{
+width:290px;
+}
+#box4r em{
+display:block;
+font-style:normal;
+background:#ffffff;
+border:solid 1px #BC4328;
+padding:5px;
+}
+#box4r tt{
+font-style:normal;
+display:block;
+font-weight:bold;
+font-size:14px;
+}
+#box4r a:link,#box4r a:visited{
+color:#0000ff;
+text-decoration: none;
+}
+#box4r a:hover,#box4r a:active{
+color:#ff0000;
+text-decoration: none;
+border:none;
+}
+
+
+
+#box2l,#box2r,#box4l,#box4r{
+float:left;
+}
+#box2l{
+width:135px;
+text-align:center;
+margin:0 0 5px;
+}
+#box2l b{
+display:block;
+padding:5px 0;
+}
+#box2r{
+background:#ffffff;
+width:315px;
+border:solid 1px #83192A;
+padding:5px 0;
+}
+#box2r p{
+margin:0 2px 3px;
+padding:0 5px 2px;
+border-bottom:dotted 1px #83192A; 
+}
+
+#box2r a:link,#box2r a:visited,#box1 a:link  em,#box1 a:visited em{
+color:#0000ff;
+text-decoration: underline;
+}
+#box2r a:hover,#box2r a:active,#box1 a:hover em,#box1 a:active em{
+color:#0000ff;
+text-decoration: none;
+}
+
+
+
+#box3{
+margin:0 0 15px 1px;
+width:460px;
+}
+#box3 h4{
+margin:0;
+padding:0;
+font-size:1px;
+font-weight:normal;
+height:30px;
+}
+
+#box3 tt{
+display:block;
+border-top:solid 1px #ffffff;
+border-left:solid 1px #eeeeee;
+border-right:solid 1px #666666;
+border-bottom:solid 1px #666666;
+padding:2px 0;
+font-size:11px;
+font-family:"ÇlÇr ÇoÉSÉVÉbÉN", Osaka;
+margin:0;
+}
+
+
+#box3c3{
+display:none;
+}
+
+
+#box3 #box3c2 a:link,#box3 #box3c2 a:visited,#box3 #box3c3 a:link,#box3 #box3c3 a:visited{
+display:block;
+background:#eeeeee;
+color:#0000ff;
+float:left;
+text-align:center;
+text-decoration:none;
+margin:0;
+}
+
+#box3 #box3c2 a:hover,#box3 #box3c2 a:active,#box3 #box3c3 a:hover,#box3 #box3c3 a:active{
+display:block;
+background:#ffffff;
+color:#ff0000;
+float:left;
+text-align:center;
+text-decoration:none;
+margin:0;
+}
+
+
+
+#box3 #box3c1 a:link,#box3 #box3c1 a:visited,#box3 #box3c1 a:hover,#box3 #box3c1 a:active{
+width:230px;
+display:block;
+float:left;
+text-align:center;
+text-decoration:none;
+color:#0000ff;
+}
+
+#box3 #box3c2 a:link,#box3 #box3c2 a:visited,#box3 #box3c2 a:hover,#box3 #box3c2 a:active{
+width:92px;
+}
+#box3 #box3c3 a:link,#box3 #box3c3 a:visited,#box3 #box3c3 a:hover,#box3 #box3c3 a:active{
+width:115px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#search_wrapper{
+	margin-bottom:100px;
+}
+
+
+
+/*ÉRÉÅÉìÉgóìÉAÉåÉìÉWï˚ñ@*/
+
+
+#contentsLeft h2{
+font-size:14px;
+font-weight:normal;
+text-align:center;
+border-bottom:dotted 1px #666666;
+}
+
+
+.word a:link,.word a:visited,.words a:link,.words a:visited{
+color:#0000ff;
+text-decoration: none;
+border-bottom:dotted 1px;
+
+}
+.word a:hover,.word a:active,.words a:hover,.words a:active{
+color:#0000ff;
+text-decoration: none;
+border-bottom:none;
+}
+
+
+.box0,.box1,.box2,.boxb,.boxl{
+margin:0 0 10px;
+padding:0;
+
+}
+.box0,.boxl{
+background:url(../i/b/cbackc.gif) top left repeat-y;
+}
+.box1{
+background:url(../i/b/cbackc1.gif) top left repeat-y;
+}
+.box2{
+background:url(../i/b/cbackc2.gif) top left repeat-y;
+}
+
+.boxb{
+
+}
+.boxb tt{
+padding:0 0 5px;
+display:block;
+}
+.boxl em{
+font-style:normal;
+display:block;
+padding:0 5px;
+text-align:left;
+}
+.boxl u{
+display:block;
+text-decoration:none;
+padding:0 5px;
+}
+
+.boxl tt{
+float:left;
+display:block;
+text-align:center;
+}
+.list3 tt{
+width:153px;
+}
+.list4 tt{
+width:115px;
+}
+
+
+
+
+.box2 h3{
+margin:0 10px 5px;
+border-bottom:dotted 1px #000000;
+font-size:11px;
+color:#ff0000;
+font-weight:normal;
+}
+.box2 tt{
+display:block;
+padding:0 15px;
+font-style:normal;
+font-size:11px;
+}
+
+
+.box0 .pic,.box0 .word{
+float:left;
+}
+.box0 .pic{
+text-align:center;
+}
+
+.box1 .pic,.box1 .word{
+float:right;
+}
+.box1 .pic{
+text-align:left;
+}
+
+.box0 h5,.box1 h5,.box2 h5,.boxl h5{
+margin:0;
+height:10px;
+}
+
+.box0 h6,.box1 h6,.box2 h6,.boxl h6{
+margin:0;
+height:11px;
+clear:both;
+}
+
+.box0 h5,.boxl h5{
+background:url(../i/b/cbacku.gif) top left no-repeat;
+}
+
+.box0 h6,.boxl h6{
+background:url(../i/b/cbackb.gif) top left no-repeat;
+}
+
+.box1 h5{
+background:url(../i/b/cbacku1.gif) top left no-repeat;
+}
+
+.box1 h6{
+background:url(../i/b/cbackb1.gif) top left no-repeat;
+}
+
+.box2 h5{
+background:url(../i/b/cbacku2.gif) top left no-repeat;
+}
+
+.box2 h6{
+background:url(../i/b/cbackb2.gif) top left no-repeat;
+}
+
+
+
+.pic{
+width:110px;
+}
+.word{
+width:360px;
+}
+.words{
+margin:0 12px;
+clear:both;
+}
+.words tt,.word tt{
+font-style:normal;
+display:block;
+padding:5px;
+background:#fbfbfb;
+border-right :solid 1px #ffffff;
+border-bottom :solid 1px #ffffff;
+border-top :solid 1px #999999;
+border-left :solid 1px #999999;
+}
+.word tt{
+margin:0 12px;
+}
+
+.words tt u{
+text-decoration:none;
+display:block;
+border-bottom:dotted 1px #999999;
+padding:3px 5px;
+}
+
+
+
+.box0 h3,.box1 h3{
+font-size:14px;
+margin:0;
+padding:0 15px 2px;
+float:left;
+}
+.word tt{
+font-style:normal;
+display:block;
+margin:0 12px;
+padding:5px;
+background:#fefefe;
+border-right :solid 1px #ffffff;
+border-bottom :solid 1px #ffffff;
+border-top :solid 1px #999999;
+border-left :solid 1px #999999;
+}
+
+.red{
+color:#ff0000;
+}
+.blue{
+color:#0000ff;
+}
+
+/*ÉçÉSâ°*/
+
+#logol{
+float:left;
+width:33%;
+}
+
+
+#logor{
+float:left;
+width:33%;
+text-align:left;
+}
+#logor2{
+float:left;
+width:33%;
+text-align:left;
+}
+.tdds{
+border-top:solid 1px #999999;
+border-left:solid 1px #999999;
+margin:3px auto;
+}
+.tdds td{
+border-bottom:solid 1px #999999;
+border-right:solid 1px #999999;
+padding:2px;
+
+}
+
+#ibooklist{
+padding:0 0 8px;
+border-bottom:dotted 1px #999999;
+display:none;
+width:463px;
+margin:0 0 8px;
+}
+
+.box2 em{
+font-style:normal;
+text-align:center;
+width:92px;
+float:left;
+}
+
+
+#logor h3{
+font-size:14px;
+border-bottom:dotted 1px #666666;
+margin:0 0 5px;
+padding:0 5px;
+color:#333333;
+}
+
+#logor form{
+background:url("../i/b/topr.gif") left bottom repeat-x;
+border-bottom:solid 1px #999999;
+border-right:solid 1px #999999;
+padding:2px 5px;
+}
+#logor select{
+font-size:12px;
+}
+
+
+
+/*goods_recom*/
+
+#recom{
+padding:5px 0;
+text-align:center;
+}
+
+
+#recom h2{
+border-left:solid 4px #ff0000;
+border-bottom:solid 1px #ff0000;
+font-size:14px;
+margin:0 0 8px;
+padding:0 8px 2px;
+text-align:left;
+}
+#recom td{
+border-top:solid 1px #cccccc;
+border-bottom:solid 1px #999999;
+padding:2px 0;
+}
+
+#recom td em{
+display:block;
+float:left;
+width:102px;
+text-align:center;
+padding:2px 0 0;
+}
+#recom td tt{
+float:left;
+width:78px;
+text-decoration:none
+}
+#recom td i{
+display:block;
+border-bottom:dotted 1px #999999;
+font-style:normal;
+padding:0 2px 2px;
+text-align:left;
+}
+#recom td u{
+display:block;
+color:#ff0000;
+text-decoration:none;
+padding:2px 2px 0;
+text-align:left;
+}

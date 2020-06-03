@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue.js App</title>
+<link href="main.css" rel="stylesheed">
+</head>
+<body>
+<div id="app">
+<ul>
+	<li v-for="(item,index) in list" v-bind:key="item.id">
+		ID:{{item.id}} {{item.name}} HP.{{item.hp}}
+	</li>
+</ul>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.21/vue.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+
+
+<script>
+	$.get("list.json", function(data){ 
+	var hoge = $.parseJSON(data); 
+}); 
+</script>
+</body>
+</html> 

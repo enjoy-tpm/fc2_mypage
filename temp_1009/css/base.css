@@ -1,0 +1,130 @@
+/*common*/
+
+body{
+background:#feffca;
+}
+
+h1{
+padding:13px 21px 8px;
+}
+
+#navi_out,#bottom_out{
+width:100%;
+
+}
+#navi_out{
+}
+#navi_cont ul{
+margin:0 13px;
+}
+#navi_cont li{
+float:left;
+font-size:1.6em;
+}
+#navi_cont li a{
+color:#fff;
+padding:0 8px 8px;
+display:block
+}
+#bottom_out{
+}
+
+#header,#navi_cont,#cont,#bottom_cont{
+margin:0 auto;
+width:993px;
+}
+#header,#navi_cont,#cont{
+text-align:left;
+}
+#navi_cont{
+background:url("../img/common/navi_back.gif") top left repeat-y;
+}
+
+
+#cont{
+background:url("../img/common/page_back.gif") top left repeat-y;
+padding:21px 0 0;
+}
+
+.common_page{
+
+}
+.common_page h2{
+margin:0 21px 21px;
+padding:3px 8px;
+font-size:1.8em;
+background:#1b8000;
+color:#fff;
+font-weight:bold;
+}
+.common_page h3,.common_page p{
+margin:0 34px 13px;
+padding:3px 8px;
+}
+.common_page h3{
+font-size:1.6em;
+font-weight:bold;
+border-bottom:solid 1px #000;
+}
+.common_page p{
+border-bottom:dotted 1px #000;
+padding-bottom:13px;
+}
+.common_page table{
+margin:0 31px;
+}
+.common_page p,.common_page td{
+font-size:1.4em;
+line-height:1.5em;
+}
+.common_page table{
+
+}
+.common_page td{
+padding:2px 5px;
+border-bottom:dotted 1px #666;
+}
+
+#page2,#page3,#page4{
+
+}
+
+#bottom_cont{
+padding:13px 0 34px
+}
+address{
+font-size:1.2em;
+}
+
+
+/*-------link-------*/
+
+* a:link,* a:visited{
+text-decoration: underline;
+}
+* a:hover,* a:active{
+text-decoration: none;
+}
+
+
+.both{
+clear:both;
+height:0;
+width:100%;
+display:block;
+visibility:hidden
+}
+
+.back_alpha{
+background:#000000;
+filter:alpha(opacity=70);   /*ie用設定 widthを指定しないと効かない*/
+-moz-opacity:0.7;           /*firefox用設定*/
+opacity:0.7;                /*sagari用設定*/
+}
+
+
+
+
+
+
+

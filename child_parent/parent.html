@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>http://基準サイト.com/parent.html</title>
+</head>
+<body>
+
+<!-- 外部サイトを埋め込み -->
+<iframe class="child-iframe" src="child.html"></iframe>
+
+<script src="jquery.js"></script>
+<script>
+$(function()
+{
+
+// メッセージを受信したとき
+$(window).on('message', function(event)
+{
+
+  console.log("event:"+event)
+  console.log("event.originalEvent:"+event.originalEvent)
+  console.log("event.originalEvent.data:"+event.originalEvent.data)
+  // 受信したオブジェクトを表示
+  console.log(event.originalEvent);
+  // 受信したメッセージ自体を表示
+  console.log(event.originalEvent.data);
+});
+
+
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+*{
+margin:0;
+padding:0;
+}
+
+
+
+/*-------base-------*/
+
+body {
+text-align:center;
+font-size:62.5%;
+}
+
+img{
+border:0px;
+}
+
+input,textarea{
+font-size: 1.2em;
+}
+ul{
+list-style-type:none;
+}
+
+i,em,tt,address{
+font-style:normal;
+}
+
+u,s{
+text-decoration:none;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+font-size:100%;
+}
+table{
+border-collapse:collapse;
+}
+div{
+
+	}
+
+
